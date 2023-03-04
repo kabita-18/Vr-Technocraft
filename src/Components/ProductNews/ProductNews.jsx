@@ -11,7 +11,7 @@ const ProductNews = () => {
     
   return (
     <>
-    <h1> Explore Our Stories </h1>
+    <h1 className="text-center"> Explore Our Stories </h1>
     <div className="badges">
      <Badge bg="dark" onClick={handleClick} >
         All Stories

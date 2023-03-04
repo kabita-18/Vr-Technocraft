@@ -10,10 +10,11 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 const Header = () => {
     return (
       <>
-      <ProgressBar>
-      <ProgressBar variant="danger" now={100} key={1} />
+      {/* <ProgressBar>
       
-    </ProgressBar>
+      
+    </ProgressBar> */}
+    {/* <ProgressBar variant="danger" now={100} key={1} /> */}
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand  href="#icon">Vr technocraft</Navbar.Brand>

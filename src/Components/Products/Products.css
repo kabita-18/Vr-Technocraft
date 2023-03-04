@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 5% 5%;
+}
+
+.card-wrapper{
+    width: 100%;
+
+}

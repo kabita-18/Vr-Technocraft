@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Components/header/Header';
-import ProductImage from './Components/productimage/ProductImage';
+import Header from './Components/Header/Header';
+import ProductImage from './Components/ProductImage/ProductImage';
 import ProductNews from './Components/ProductNews/ProductNews';
-import Placeholder from './Components/Placeholder/Placeholder';
-import Testimonial from './Components/testimonials/Testimonial';
+import Products from './Components/Products/Products';
+import Testimonial from './Components/Testimonials/Testimonial';
 import Footer from './Components/Footer/Footer';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <ProductImage/>
       <ProductNews/>
-      <Placeholder/>
+      <Products/>
       <Testimonial/>
       <Footer/>
     </div>
